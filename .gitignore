@@ -1,32 +1,56 @@
-# Prerequisites
-*.d
+# Visual Studio cache / user settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.aps
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build output
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+out/
+
+# Compiled files
 *.obj
-
-# Precompiled Headers
-*.gch
+*.o
 *.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+*.pdb
+*.ilk
+*.exp
 *.lib
-
-# Executables
+*.dll
 *.exe
-*.out
-*.app
+*.idb
+*.tlog
+*.log
+*.lastbuildstate
+*.iobj
+*.ipdb
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CMakeSettings.json
+
+# Other IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

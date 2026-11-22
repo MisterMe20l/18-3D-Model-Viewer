@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{44f32474-6767-4a1a-bcb4-edd3dd8f8bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{ca120ad4-ed6f-4e39-b26f-52bca1004c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\cars">
+      <UniqueIdentifier>{d3355770-b04b-4df1-94b7-58f3e10bcd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\ground">
+      <UniqueIdentifier>{2e842acc-f8b5-4fe8-b34f-75639a8d84b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\cars\car1">
+      <UniqueIdentifier>{201c9a79-461e-4570-b58a-44fe5c1756a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets\skybox">
+      <UniqueIdentifier>{9a78a326-a7eb-47bd-ba6c-dbfc181f0fff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Color.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Errors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Color.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Errors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\BasicColor.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\Lerp.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\Lerp.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\BasicColor.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\BasicTexture.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\BasicTexture.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="assets\cars\car1\Car.blend">
+      <Filter>assets\cars\car1</Filter>
+    </None>
+    <None Include="assets\cars\car1\Car.mtl">
+      <Filter>assets\cars\car1</Filter>
+    </None>
+    <None Include="..\.gitignore" />
+    <None Include="assets\cars\car1\Car.obj">
+      <Filter>assets\cars\car1</Filter>
+    </None>
+    <None Include="shaders\skybox.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\skybox.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\ground\grass.jpg">
+      <Filter>assets\ground</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_red.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snow.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snow_blue.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snow_gray.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snow_red.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snowcovered.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snowcovered_blue.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snowcovered_gray.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_snowcovered_red.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_blue.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\cars\car1\car_gray.png">
+      <Filter>assets\cars\car1</Filter>
+    </Image>
+    <Image Include="assets\skybox\bot.png">
+      <Filter>assets\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\left.png">
+      <Filter>assets\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\right.png">
+      <Filter>assets\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\front.png">
+      <Filter>assets\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\top.png">
+      <Filter>assets\skybox</Filter>
+    </Image>
+    <Image Include="assets\skybox\back.png">
+      <Filter>assets\skybox</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
